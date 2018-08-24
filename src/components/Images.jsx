@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import { BrowserRouter as Router, Route, Link, Switch, Redirect } from "react-router-dom";
 import FileUpload from './FileUpload';
 import '../css/images.css';
 

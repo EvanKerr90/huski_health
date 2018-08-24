@@ -10,8 +10,6 @@ import SignUp from './components/SignUp'
 import Login from './components/Login'
 import Activity from './components/Activity';
 import NewPetForm from './components/NewPetForm';
-import FileUpload from './components/FileUpload';
-import PdfUpload from './components/PdfUpload';
 import Vets from './components/Vets'
 import Records from './components/Records'
 import Record from './components/Record'

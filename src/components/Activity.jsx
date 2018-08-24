@@ -1,7 +1,7 @@
 import React from 'react';
 import $ from 'jquery';
 import '../css/activity.css';
-
+import mainLogo from '../huski-health.png'
 
 export default class Event extends React.Component {
     constructor(props) {
@@ -46,7 +46,7 @@ export default class Event extends React.Component {
       return (
         <div className='popup'>
           <div className='popup_inner'>
-            <h2>New {this.props.type}</h2>
+            <h2><img alt="huski-health-logo" src={mainLogo} style={{ height: "2em", position: "relative", float:"right"}} />New {this.props.type}</h2>
             <table className="table table-dark" style={{ fontSize: 16 }}>
               <form>
                 <label className="pop-up-label">Enter New {this.props.type}</label><br/>

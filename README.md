@@ -2,8 +2,12 @@
 
 HuskiHealth is a pet health tracking app designed to help pet owners take the best care of their furry friend. Simply upload a picture of a pet and HuskiHealth will identify the breed and provide a dashboard to track and display a pet's weight, feeding schedule, and exercise activities. We'll also help owner's locate and chat with a vet online, and go paperless to organize a pet's medical records. HuskiHealth is the perfect tool for pet owner's to organize and track their pet's info all in one app. 
 
+## What it looks like
 
-## Getting Started
+!["Screenshot of home page"](https://user-images.githubusercontent.com/30486163/44566397-5376be00-a73b-11e8-9d15-ed622cc2ab85.png)
+!["Screenshot of pet dashboard"](https://user-images.githubusercontent.com/30486163/44566441-9769c300-a73b-11e8-807e-9431aee4fae2.png)
+
+### Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
@@ -13,7 +17,7 @@ These instructions will get you a copy of the project up and running on your loc
 * Run the client side sever using `npm start` in the main folder 
 * Go to http://localhost:3000/ in your web browser
 
-### Dependencies 
+#### Dependencies 
  * ajax
  * axios 
  * body-parser 
@@ -43,7 +47,7 @@ These instructions will get you a copy of the project up and running on your loc
  * universal-cookie-express
  * what-dog
 
-## Built With
+##### Built With
 
   * Node.js 
   * PostgreSQL 
@@ -51,7 +55,7 @@ These instructions will get you a copy of the project up and running on your loc
   * Bootstrap
   * React  
 
-## Authors
+###### Authors
 
 * Lexi Keen [https://github.com/peachykeen5]
 * Evan Kerr[https://github.com/EvanKerr90]

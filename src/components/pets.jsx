@@ -2,8 +2,6 @@ import React, { Fragment, Component } from 'react';
 import PetCard from './PetCard';
 import axios from 'axios'
 import Cookies from 'universal-cookie';
-import FileUpload from './FileUpload';
-import { render } from 'react-dom'
 import {
     PlusButton,
 } from 'react-svg-buttons'

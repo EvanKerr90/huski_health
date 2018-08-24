@@ -28,7 +28,7 @@ export default class StatusBar extends Component {
     .then(data => {
       if (data[0] === undefined) {
         data[0].created_at = ""
-      }
+      } 
       this.setState({data: data[0]})
     })
     .catch(err => {
@@ -53,7 +53,7 @@ export default class StatusBar extends Component {
   render() {
     const lastActive = (this.props.active[0] && moment(this.props.active[0].created_at).fromNow()) || "No Activites"
     const activityNotes = (this.props.active[0] && this.props.active[0].notes) || ""
-    const date = this.state.data.created_at
+    const date = this.state.data.created_at 
     const dateFromNow = moment(date).fromNow();
     const notes = this.state.data.notes
     const weight = this.state.weight

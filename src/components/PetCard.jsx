@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import Event from './Activity';
 import axios from 'axios'
-import FileUpload from './FileUpload';
 
 export default class PetCard extends Component {
   constructor(props) {

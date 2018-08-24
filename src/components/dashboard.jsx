@@ -1,16 +1,13 @@
 import React, { Component } from "react";
 import $ from "jquery";
 import { withRouter } from "react-router-dom";
-import NavBar from "./NavBar.jsx";
 import PetProfile from "./PetProfile.jsx";
 import Timeline from "./Timeline.jsx";
 import PetChart from "./PetChart.jsx";
 import StatusBar from "./StatusBar.jsx";
 import ChatBot from 'react-simple-chatbot';
 import Example from './ChatBot.jsx'
-import NewPetForm from "./NewPetForm.jsx";
 
-import axios from 'axios'
 var map;
 var service;
 var infowindow;
