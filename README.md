@@ -13,6 +13,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 * Clone the repository
 * Install all dependencies (using npm install command) in the main folder 
+* Create an env file using the example and connect it to your postgreSQL database
+* Run the migration and seed files
 * Run the development web server using the `node server.js` command in the main folder 
 * Run the client side sever using `npm start` in the main folder 
 * Go to http://localhost:3000/ in your web browser
